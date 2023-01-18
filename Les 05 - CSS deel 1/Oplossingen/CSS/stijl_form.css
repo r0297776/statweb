@@ -14,7 +14,7 @@ div {
 label,
 textarea,
 legend {
-  vertical-align: top;
+  vertical-align: ;
   color: black;
   display: inline-block;
   padding-bottom: 10px;
@@ -35,7 +35,7 @@ input[type="text"]:focus {
 
 fieldset,
 input[type="file"] {
-  border-color: #4caf50 !important;
+  border-color: #158121 !important;
   border-radius: 25px;
   max-width: 250px;
 }

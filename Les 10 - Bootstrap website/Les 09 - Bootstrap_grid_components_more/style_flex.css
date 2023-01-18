@@ -1,0 +1,46 @@
+* {
+    font-family: Verdana;
+    box-sizing: border-box;
+    margin: 0px;
+}
+body {
+    text-align: left;
+    width: 85%;
+    margin: auto;
+}
+h1 {
+    font-weight: 500;
+}
+
+.flex-container {
+    display: flex;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.flex-item {
+    padding: 2px;
+    border: 10px solid white;
+
+}
+.flex-66{
+    flex: 66.66%
+}
+
+.flex-33{
+    flex: 33.33%
+}
+
+.flex-25{
+    flex: 25%
+}
+
+.flex-50{
+    flex: 50%
+}
+@media screen and (max-width: 700px) {
+
+    .flex-container {
+        flex-direction: column;
+    }
+}

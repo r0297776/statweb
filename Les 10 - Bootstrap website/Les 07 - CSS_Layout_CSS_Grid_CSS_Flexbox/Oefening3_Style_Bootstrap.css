@@ -1,0 +1,70 @@
+body {
+    font-size: 40px;
+    color: black;
+}
+.container{
+    min-width: 100% !important;
+}
+
+.container>div {
+    text-align: center;
+    height: 300px;
+}
+
+.col{
+    margin: 10px;
+}
+
+.item-1 {
+    background-color: aqua;
+}
+
+.item-2 {
+    background-color: rgb(225, 0, 255);
+}
+
+.item-3 {
+    background-color: rgb(84, 202, 11);
+}
+
+.item-4 {
+    background-color: rgb(255, 225, 0);
+}
+
+.item-5 {
+    background-color: rgb(255, 47, 0);
+}
+
+.item-6 {
+    background-color: rgb(139, 47, 110);
+}
+
+.item-7 {
+    background-color: rgb(150, 190, 153);
+}
+
+.item-8 {
+    background-color: rgb(14, 37, 186);
+}
+
+.item-9 {
+    background-color: rgb(179, 179, 48);
+}
+
+.subitem-1 {
+    background-color: rgb(14, 178, 181);
+    margin-bottom: 0px;
+    margin-top: 10%;
+}
+
+.subitem-2 {
+    background-color: rgb(14, 181, 39);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.subitem-3 {
+    background-color: rgb(181, 14, 153);
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
