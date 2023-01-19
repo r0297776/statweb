@@ -1,0 +1,54 @@
+.container {
+    margin: 20px;
+    display: grid;
+    height: 800px;
+    /* grid-template-columns: 200px 2fr 20% auto; */
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: 5rem minmax(10px, auto) 100px;
+    /* Het aantal rijen en kolommen worden hier bepaald! */
+
+    /* grid-column-gap: 20px;
+    grid-row-gap: 20px;                 Dit is hetzelfde als onderstaande*/
+    grid-gap: 10px 30px;
+
+    grid-template-areas: 
+    "element1 element1 element1 element1"
+    "element2 element3 element3 element3"
+    "element4 element4 element4 element4"
+    ;
+}
+
+.el1 {
+    background: rgba(255, 154, 72, 0.5);
+    /* grid-column-start: 1;
+    grid-column-end: span 4; */
+    grid-area: element1;
+}
+
+.el2 {
+    background: rgba(255, 0, 0, 0.5);
+    /* grid-row-start: 2;
+    grid-row-end: 4; */
+    grid-area: element2;
+    
+}
+
+.el3 {
+    background: rgba(0, 128, 0, 0.5);
+    /* grid-column-start: 2;
+    grid-column-end: span 3;
+    grid-row-start: 2;
+    grid-row-end: span 2; */
+    grid-area: element3;
+
+    /*De positie van het element wordt hier bepaald*/
+}
+
+.el4 {
+    background: rgba(0, 4, 255, 0.5);
+    /* grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;*/
+    height: 50px; 
+    grid-area: element4;
+}
